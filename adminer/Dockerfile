@@ -1,0 +1,2 @@
+# ./adminer/Dockerfile
+FROM adminer

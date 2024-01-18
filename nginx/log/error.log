@@ -1,0 +1,16 @@
+2024/01/18 07:53:25 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:26 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:27 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:28 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:29 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:31 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:34 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:41 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:53:54 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:54:20 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:55:12 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:16
+2024/01/18 07:56:20 [error] 20#20: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8083"
+2024/01/18 07:56:22 [error] 20#20: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/"
+2024/01/18 07:57:01 [error] 20#20: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8083"
+2024/01/18 07:59:18 [error] 20#20: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8083"
+2024/01/18 07:59:42 [error] 20#20: *1 "/D:/dokcer/test/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8083"

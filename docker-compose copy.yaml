@@ -1,0 +1,34 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 9906:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 9090:8080
+    depends_on:
+    - db  # 确保 db 服务先启动
+
+  nginx:
+    image: nginx
+    restart: always
+    ports:
+      - "8083:80"
+      - "443:443"
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+      - ./conf:/etc/nginx/:ro
+      - ./log:/var/log/nginx
+    depends_on:
+      - db  # 确保 db 服务先启动
